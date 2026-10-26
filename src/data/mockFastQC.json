@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "basicStatistics": "PASS",
+    "perBaseSequenceQuality": "WARN",
+    "perTileSequenceQuality": "PASS",
+    "perSequenceQualityScores": "PASS",
+    "perBaseSequenceContent": "PASS",
+    "perSequenceGcContent": "PASS",
+    "adapterContent": "WARN"
+  },
+  "readLength": 150,
+  "totalSequences": 2500000,
+  "gcPercent": 50.8,
+  "rawPhredCurve": [
+    {"cycle": 1, "mean": 36.2, "q25": 34, "q75": 38, "status": "good"},
+    {"cycle": 20, "mean": 37.1, "q25": 35, "q75": 39, "status": "good"},
+    {"cycle": 40, "mean": 36.8, "q25": 34, "q75": 38, "status": "good"},
+    {"cycle": 60, "mean": 35.9, "q25": 33, "q75": 38, "status": "good"},
+    {"cycle": 80, "mean": 34.2, "q25": 31, "q75": 37, "status": "good"},
+    {"cycle": 100, "mean": 31.4, "q25": 28, "q75": 35, "status": "good"},
+    {"cycle": 120, "mean": 26.5, "q25": 22, "q75": 31, "status": "warn"},
+    {"cycle": 140, "mean": 18.2, "q25": 14, "q75": 23, "status": "fail"},
+    {"cycle": 150, "mean": 14.1, "q25": 10, "q75": 19, "status": "fail"}
+  ],
+  "trimmedPhredCurve": [
+    {"cycle": 1, "mean": 36.5, "q25": 34, "q75": 38, "status": "good"},
+    {"cycle": 20, "mean": 37.2, "q25": 35, "q75": 39, "status": "good"},
+    {"cycle": 40, "mean": 36.9, "q25": 34, "q75": 38, "status": "good"},
+    {"cycle": 60, "mean": 36.0, "q25": 33, "q75": 38, "status": "good"},
+    {"cycle": 80, "mean": 34.8, "q25": 32, "q75": 37, "status": "good"},
+    {"cycle": 100, "mean": 33.1, "q25": 30, "q75": 36, "status": "good"},
+    {"cycle": 120, "mean": 30.5, "q25": 27, "q75": 34, "status": "good"},
+    {"cycle": 130, "mean": 28.2, "q25": 25, "q75": 32, "status": "good"}
+  ]
+}
